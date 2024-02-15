@@ -1,0 +1,1 @@
+s. To extract the useful information you need to cut by fields rather than columns. List of the fields number specified must be separated by comma. Ranges are not described with -f option. cut uses tab as a default field delimiter but can also work with other delimiter by using -d option. Note: Space is not considered as delimiter in UNIX. Syntax:~
