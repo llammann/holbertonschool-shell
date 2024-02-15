@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `awk -F: '{print NF}' <<<"$PATH"`
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
