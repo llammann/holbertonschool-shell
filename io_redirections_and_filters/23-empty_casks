@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -size 0 | tr ' ' '\n'
+find . -empty -printf "%P\n"
