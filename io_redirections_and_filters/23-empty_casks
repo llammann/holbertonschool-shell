@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | tr ' ' '\n'
+find . -size 0 | tr ' ' '\n'
